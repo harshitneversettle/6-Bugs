@@ -92,7 +92,7 @@ export default function Signup_teacher() {
           <input
             type="text"
             name="experience"
-            placeholder="ex. 5+"
+            placeholder="experience:5+"
             onChange={(e) => setexperience(e.target.value)}
             className="w-full p-4 border rounded-lg bg-gray-100 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
           />
